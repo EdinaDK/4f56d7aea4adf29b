@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.main {
+    overflow-x:hidden;
+}
+
+.container {
+    display: flex;
+    margin-left: 12%;
+    margin-right: 12%;
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.countUp {
+    margin-bottom: 6%;
+    width: 100%;
+    font-family: "Russo One";
+    font-size: 58pt;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(9, 7, 47, 0.98);
+}
+
+.blockLeft {
+    top: 5%;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    margin-right: 6%;
+    width: 47%;
+    color: white;
+}
+
+.blockRight {
+    display: inline-block;
+    position: relative;
+    width: 47%;
+    color: white;
+}
+
+.paragraph {
+    margin-bottom: 6%;
+    font-family: Comfortaa;
+    font-size: 12pt;
+}
+
+.one {
+
+}
+
+.title {
+    font-family: Russo One;
+    font-weight: bold;
+    color: white;
+    font-size: 48pt;
+    text-align: center;
+    position: relative;
+}
+
+
+.signIn {
+    -webkit-transition: all 0.5s ease;
+    background-color: transparent;
+    position: fixed;
+    top: 2.90%;
+    color: white;
+    left: 90%;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.signIn:hover {
+    background-color: rgba(79, 76, 76, 0.74);
+    -webkit-transition: all 0.5s ease;
+}
+
+.signUp {
+    background-color: rgba(255, 255, 255, 0.65);
+    position: absolute;
+    left: 50%;
+    top: auto;
+    transform: translate(-50%, -0%);
+    height: 50px;
+    width: 240px;
+    border-radius: 25px;
+    -webkit-transition: all 0.5s ease;
+}
+
+.signUp:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(66, 63, 63);
+    -webkit-transition: all 0.5s ease;
+}
+
+.linkSignUp {
+    text-decoration: none !important;
+    color: black;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 5%;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    font-family: "Russo One";
+    font-size: 13pt;
+}
+

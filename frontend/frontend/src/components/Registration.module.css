@@ -1,0 +1,113 @@
+.regform {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 100;
+	background-color: white;
+	width: 1000px;
+	height: 675px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	font-family: "Russo One";
+}
+
+.icon {
+	width: 200px;
+	height: 200px;
+	color: #363636;
+	top: 50%;
+}
+
+.fileUploaderForm {
+	position: fixed;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.fileUpload input {
+	display: none;
+}
+
+.textFields {
+	position: fixed;
+	left: 50%;
+	height: 500px;
+	width: 500px;
+}
+
+p {
+	text-align: left;
+	margin: 0;
+}
+
+.fileUpload {
+	position: fixed;
+	left: 0%;
+	width: 500px;
+	height: 500px;
+}
+
+.regform input {
+	font-size: 12pt;
+	cursor: pointer;
+	font-family: "Comfortaa";
+	width: 100%;
+	height: 22px;
+	border: 1px solid #ababab;
+	border-radius: 8px;
+	padding: 5px 5px;
+	transition: all 0.2s ease;
+	margin-bottom: 10px;
+}
+
+.regform input:focus {
+	border: 1px solid #d15700;
+	transition: all 0.2s ease;
+	cursor: text;
+}
+
+.regform button {
+	cursor: pointer;
+	border: none;
+	margin-top: 30px;
+	border-radius: 20px;
+	width: 200px;
+	height: 40px;
+	font-family: "Russo One";
+	font-size: 13pt;
+	color: white;
+	background-color: #000;
+}
+
+.btnRegister {
+	position: fixed;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -0%);
+}
+
+.fileBtn {
+	width: 250px !important;
+}
+
+.overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+
+	background-color: rgba(1, 1, 1, 0.74);
+}
+
+.error {
+	color: red;
+	font-size: 10pt;
+	margin: 0px;
+}

@@ -1,0 +1,147 @@
+.userPage {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(-45deg, rgba(94, 156, 248, 0.377) 13%, rgba(114, 70, 235, 0.377) 36%, rgba(205, 88, 241, 0.377) 69%, rgba(253, 59, 211, 0.377) 85%);
+  	background-size: 400% 400%;
+  	animation: gradient 15s ease infinite;
+	font-family: "Russo One";
+}
+
+@keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+
+
+.profileIcon {
+	display: flex;
+	background: linear-gradient(
+		90deg,
+		rgba(177, 176, 176, 0.7) 26%,
+		rgba(124, 180, 233, 0.5032387955182073) 100%
+	);
+	height: 420px;
+	width: 25%;
+	margin: 3% 0% 3% 12%;
+	border-radius: 30px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.userPhoto {
+	/* position: relative !important;
+	display: inline-block !important;
+	width: 100% !important;
+	height: 50% !important; */
+	padding: 10px;
+	margin: 19% 0% 5% 0% !important;
+}
+
+.userInfo {
+	position: relative;
+	height: auto;
+	width: 100%;
+	margin: 6% 5% 5% 0%;
+}
+
+.userinfoText {
+	margin: 0 0 9% 0;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.29);
+	border-radius: 5px;
+}
+
+.achieves {
+	position: relative;
+	display: inline-block;
+	background-color: rgba(159, 158, 158, 0.44);
+	height: 87%;
+	width: 60%;
+	margin: 3% 12% 3% 3%;
+	border-radius: 30px;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.titAchieves {
+	position: relative;
+	color: black;
+	font-weight: 300;
+	padding: 1px;
+	left: 2%;
+}
+
+.titleAch {
+	margin: 3% 9% 3% 9%;
+	width: auto;
+	background-color: rgba(225, 224, 224, 0.74);
+	height: auto;
+	border-radius: 7px;
+}
+
+.btnEdit {
+	cursor: pointer;
+	border: none;
+	margin-top: 30px;
+	width: 21.45%;
+	height: 40px;
+	font-family: "Russo One";
+	font-size: 13pt;
+	color: #000000;
+	background-color: rgba(255, 255, 255, 0.18);
+	position: absolute;
+	top: 43%;
+	left: 12%;
+	transform: translate(-0%, -24%);
+}
+
+.userLogin {
+	color: #7e7d7d;
+	font-family: Roboto;
+	position: absolute;
+	top: 31.5%;
+	left: 13%;
+	transform: translate(-0%, -32%);
+}
+
+.prizes {
+	display: table;
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+.prize {
+	display: table-cell;
+	width: 200px;
+	height: 200px;
+}
+
+.prize h4 {
+	position: relative;
+	text-align: center;
+	width: 180px;
+	background-color: rgba(225, 224, 224, 0.74);
+	border-radius: 10px;
+}
+
+
+.prizePic {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.cup { 
+	position: relative;
+	width: 180px;
+	height: 180px;
+  }

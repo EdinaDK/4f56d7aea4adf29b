@@ -1,0 +1,87 @@
+.autoForm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Russo One";
+}
+
+.autoForm h2 {
+    font-family: "Russo One";
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.autoForm div + div {
+    margin-top: 10px;
+}
+
+.autoForm input {
+    font-size: 12pt;
+    cursor: pointer;
+    font-family: "Comfortaa";
+    width: 100%;
+    height: 22px;
+    border: 1px solid #ababab;
+    border-radius: 8px;
+    padding: 4px 5px;
+    transition: all .2s ease;
+}
+
+.autoForm input:focus::placeholder {
+    color: transparent;
+}
+
+.autoForm input:focus {
+    cursor: text;
+    border: 1px solid #d15700;
+    transition: all .2s ease;
+}
+
+.autoForm button {
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    font-family: "Russo One";
+    font-size: 13pt;
+    color: white;
+    background-color: #000;
+}
+
+.icons {
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 51%;
+    left: 88%;
+    color: rgb(114, 113, 113);
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    background-color: rgba(1, 1, 1, 0.74);
+}
+
+.error {
+    color: red;
+    font-size: 10pt;
+    margin: 5px;
+}
